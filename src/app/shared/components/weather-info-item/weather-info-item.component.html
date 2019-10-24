@@ -1,0 +1,61 @@
+<div [ngSwitch]="itemType" class="weather-info-container">
+
+  <div *ngSwitchCase="'Humidity'">
+    <div class="humidity">
+      <img class="icon" src="./assets/images/humidity.png">
+      <span class="itemTypeTitle">Humidity: {{value}} %</span>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'Temperature'">
+    <div class="temperature">
+      <img class="icon" src="./assets/images/temperature.png">
+      <span class="itemTypeTitle">Temperature: {{value}} °C</span>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'Wind Speed'">
+    <div class="windSpeed">
+      <img class="icon" src="./assets/images/anemometer.png">
+      <span class="itemTypeTitle">Wind Speed: {{value}} m/s</span>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'Wind Degree'">
+    <div class="windDegree">
+      <img class="icon" src="./assets/images/weathercock.png">
+      <span class="itemTypeTitle">Wind Degree: {{value}}</span>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'Snow'">
+    <div class="icon flurries">
+      <div class="cloud"></div>
+      <div class="snow">
+        <div class="flake"></div>
+        <div class="flake"></div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'Storm'">
+    <div class="icon thunder-storm">
+      <div class="cloud"></div>
+      <div class="lightning">
+        <div class="bolt"></div>
+        <div class="bolt"></div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'SunShower'">
+    <div class="icon sun-shower">
+      <div class="cloud"></div>
+      <div class="sun">
+        <div class="rays"></div>
+      </div>
+      <div class="rain"></div>
+    </div>
+  </div>
+
+</div>

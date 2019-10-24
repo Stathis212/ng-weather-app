@@ -1,0 +1,29 @@
+<ng-container *ngIf="fiveDayForecast">
+  <mat-card>
+    <div class="five-day-forecast-container">
+      <h2 class="title">Five Day Forecast in {{city?.name}}, {{country?.name}}</h2>
+      <div class="five-day-forecast-list">
+          <mat-accordion>
+            <mat-expansion-panel *ngFor="let stat of fiveDayForecast?.list; let i = index; let first = first; let last = last;" 
+                                  [expanded]="step === i" 
+                                  (opened)="setStep(i)" 
+                                  hideToggle>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                {{stat.dt_txt}}
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div>
+              {{stat.weather[0].description}}
+            </div>
+            <mat-action-row>
+              <button mat-button *ngIf="!first" mat-button color="warn" (click)="prevStep()">Previous</button>
+              <button mat-button *ngIf="!last" mat-button color="primary" (click)="nextStep()">Next</button>
+            </mat-action-row>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+    </div>
+  </mat-card>
+
+</ng-container>

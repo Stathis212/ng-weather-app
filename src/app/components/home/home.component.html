@@ -1,0 +1,22 @@
+<div class="home-container">
+  <h1 class="title">Weather Status & Forecast</h1>
+  <h3 class="subtitle">Please Choose Location</h3>
+  <div class="choose-location">
+    <mat-form-field>
+      <mat-label>Select a Country</mat-label>
+      <mat-select [(value)]="selectedCountry" (selectionChange)="countryChanged()">
+        <mat-option value="none">None</mat-option>
+        <mat-option *ngFor="let country of countries" [value]="country">{{country.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="choose-location">
+    <mat-form-field *ngIf="selectedCountry && selectedCountry !== 'none'">
+      <mat-label>Select a City</mat-label>
+      <mat-select [(value)]="selectedCity" (selectionChange)="cityChanged()">
+        <mat-option value="none">None</mat-option>
+        <mat-option *ngFor="let city of citiesPerCountry" [value]="city">{{city.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</div>

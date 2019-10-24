@@ -1,0 +1,20 @@
+<div class="city-container">
+  <mat-tab-group mat-align-tabs="center" [color]="'primary'" [backgroundColor]="'primary'">
+    <mat-tab label="Weather">
+      <ng-template matTabContent>
+        <wa-city-current-weather [city]="selectedCity$ | async"
+                                  [country]="selectedCountry$ | async">
+  
+        </wa-city-current-weather>
+      </ng-template>
+    </mat-tab>
+    <mat-tab label="5-Day Forecast">
+      <ng-template matTabContent>
+        <wa-city-five-day-forecast [city]="selectedCity$ | async"
+                                    [country]="selectedCountry$ | async">
+        </wa-city-five-day-forecast>
+      </ng-template>
+    </mat-tab>
+  </mat-tab-group>
+  <a mat-fab color="primary" routerLink="/" class="back-to-home-btn"><mat-icon>home</mat-icon></a>
+</div>

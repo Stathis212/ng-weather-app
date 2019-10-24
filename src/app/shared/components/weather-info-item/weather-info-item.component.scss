@@ -1,0 +1,24 @@
+.weather-info-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.humidity,
+.temperature,
+.windSpeed,
+.windDegree
+ {
+  width:250px;
+  display: flex;
+  padding: 20px 0 20px 0;
+  .icon {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
+
+.itemTypeTitle {
+  padding-left: 10px;
+  line-height: 40px;
+}

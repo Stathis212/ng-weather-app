@@ -1,0 +1,354 @@
+[
+  {
+    "id": 264371,
+    "name": "Athens",
+    "country": "GR",
+    "coord": {
+      "lon": 23.716221,
+      "lat": 37.97945
+    }
+  },
+  {
+    "id": 255274,
+    "name": "Piraeus",
+    "country": "GR",
+    "coord": {
+      "lon": 23.637079,
+      "lat": 37.947449
+    }
+  },
+  {
+    "id": 255683,
+    "name": "Patra",
+    "country": "GR",
+    "coord": {
+      "lon": 21.73444,
+      "lat": 38.244438
+    }
+  },
+  {
+    "id": 258620,
+    "name": "Lamia",
+    "country": "GR",
+    "coord": {
+      "lon": 22.433331,
+      "lat": 38.900002
+    }
+  },
+  {
+    "id": 261604,
+    "name": "Kalamata",
+    "country": "GR",
+    "coord": {
+      "lon": 22.11417,
+      "lat": 37.038891
+    }
+  },
+  {
+    "id": 258576,
+    "name": "Larisa",
+    "country": "GR",
+    "coord": {
+      "lon": 22.42028,
+      "lat": 39.637218
+    }
+  },
+  {
+    "id": 251833,
+    "name": "Volos",
+    "country": "GR",
+    "coord": {
+      "lon": 22.945829,
+      "lat": 39.366669
+    }
+  },
+  {
+    "id": 261779,
+    "name": "Ioannina",
+    "country": "GR",
+    "coord": {
+      "lon": 20.85083,
+      "lat": 39.6675
+    }
+  },
+  {
+    "id": 252601,
+    "name": "Tripoli",
+    "country": "GR",
+    "coord": {
+      "lon": 22.37944,
+      "lat": 37.508888
+    }
+  },
+  {
+    "id": 734077,
+    "name": "Thessaloniki",
+    "country": "GR",
+    "coord": {
+      "lon": 22.94389,
+      "lat": 40.640282
+    }
+  },
+  {
+    "id": 736928,
+    "name": "Alexandroupoli",
+    "country": "GR",
+    "coord": {
+      "lon": 25.874439,
+      "lat": 40.8475
+    }
+  },
+
+  {
+    "id": 2643743,
+    "name": "London",
+    "country": "GB",
+    "coord": {
+      "lon": -0.12574,
+      "lat": 51.50853
+    }
+  },
+  {
+    "id": 2655603,
+    "name": "Birmingham",
+    "country": "GB",
+    "coord": {
+      "lon": -1.89983,
+      "lat": 52.481419
+    }
+  },
+  {
+    "id": 2641170,
+    "name": "Nottingham",
+    "country": "GB",
+    "coord": {
+      "lon": -1.15047,
+      "lat": 52.953602
+    }
+  },
+  {
+    "id": 2638077,
+    "name": "Sheffield",
+    "country": "GB",
+    "coord": {
+      "lon": -1.4659,
+      "lat": 53.382969
+    }
+  },
+  {
+    "id": 2643123,
+    "name": "Manchester",
+    "country": "GB",
+    "coord": {
+      "lon": -2.23743,
+      "lat": 53.480949
+    }
+  },
+  {
+    "id": 2644210,
+    "name": "Liverpool",
+    "country": "GB",
+    "coord": {
+      "lon": -2.97794,
+      "lat": 53.41058
+    }
+  },
+  {
+    "id": 3173435,
+    "name": "Milano",
+    "country": "IT",
+    "coord": {
+      "lon": 9.18951,
+      "lat": 45.464272
+    }
+  },
+  {
+    "id": 3169070,
+    "name": "Roma",
+    "country": "IT",
+    "coord": {
+      "lon": 12.4839,
+      "lat": 41.894741
+    }
+  },
+  {
+    "id": 3165525,
+    "name": "Torino",
+    "country": "IT",
+    "coord": {
+      "lon": 7.66667,
+      "lat": 45.049999
+    }
+  },
+  {
+    "id": 3172394,
+    "name": "Napoli",
+    "country": "IT",
+    "coord": {
+      "lon": 14.25,
+      "lat": 40.833328
+    }
+  },
+  {
+    "id": 6542127,
+    "name": "Palermo",
+    "country": "IT",
+    "coord": {
+      "lon": 13.36143,
+      "lat": 38.115719
+    }
+  },
+  {
+    "id": 6542282,
+    "name": "Genoa",
+    "country": "IT",
+    "coord": {
+      "lon": 8.95729,
+      "lat": 44.412861
+    }
+  },
+  {
+    "id": 3181928,
+    "name": "Bologna",
+    "country": "IT",
+    "coord": {
+      "lon": 11.33875,
+      "lat": 44.493809
+    }
+  },
+  {
+    "id": 6542285,
+    "name": "Firenze",
+    "country": "IT",
+    "coord": {
+      "lon": 11.24892,
+      "lat": 43.786449
+    }
+  },
+  {
+    "id": 6173683,
+    "name": "Venice",
+    "country": "CA",
+    "coord": {
+      "lon": -112.135223,
+      "lat": 54.700191
+    }
+  },
+  {
+    "id": 2968815,
+    "name": "Paris",
+    "country": "FR",
+    "coord": {
+      "lon": 2.3486,
+      "lat": 48.853401
+    }
+  },
+  {
+    "id": 6447142,
+    "name": "Marseille",
+    "country": "FR",
+    "coord": {
+      "lon": 5.4,
+      "lat": 43.299999
+    }
+  },
+  {
+    "id": 6454573,
+    "name": "Lyon",
+    "country": "FR",
+    "coord": {
+      "lon": 4.83107,
+      "lat": 45.7686
+    }
+  },
+  {
+    "id": 6453974,
+    "name": "Toulouse",
+    "country": "FR",
+    "coord": {
+      "lon": 1.44367,
+      "lat": 43.604259
+    }
+  },
+  {
+    "id": 6454924,
+    "name": "Nice",
+    "country": "FR",
+    "coord": {
+      "lon": 7.25,
+      "lat": 43.700001
+    }
+  },
+  {
+    "id": 6454034,
+    "name": "Montpellier",
+    "country": "FR",
+    "coord": {
+      "lon": 3.8771,
+      "lat": 43.611301
+    }
+  },
+  {
+    "id": 6455058,
+    "name": "Bordeaux",
+    "country": "FR",
+    "coord": {
+      "lon": -0.56667,
+      "lat": 44.833328
+    }
+  },
+  {
+    "id": 3117735,
+    "name": "Madrid",
+    "country": "ES",
+    "coord": {
+      "lon": -3.70256,
+      "lat": 40.4165
+    }
+  },
+  {
+    "id": 6356055,
+    "name": "Barcelona",
+    "country": "ES",
+    "coord": {
+      "lon": 2.12804,
+      "lat": 41.399422
+    }
+  },
+  {
+    "id": 2509954,
+    "name": "Valencia",
+    "country": "ES",
+    "coord": {
+      "lon": -0.37739,
+      "lat": 39.469749
+    }
+  },
+  {
+    "id": 6361046,
+    "name": "Seville",
+    "country": "ES",
+    "coord": {
+      "lon": -5.95918,
+      "lat": 37.391411
+    }
+  },
+  {
+    "id": 6545095,
+    "name": "Bilbao",
+    "country": "ES",
+    "coord": {
+      "lon": -3.70114,
+      "lat": 40.429131
+    }
+  },
+  {
+    "id": 2514256,
+    "name": "Malaga",
+    "country": "ES",
+    "coord": {
+      "lon": -4.42034,
+      "lat": 36.720161
+    }
+  }
+]

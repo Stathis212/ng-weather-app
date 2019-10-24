@@ -1,0 +1,28 @@
+.five-day-forecast-container {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.five-day-forecast-list {
+  display: block;
+  max-width: 500px;
+  margin-left: calc(50% - 250px);
+  padding-top: 100px;
+}
+
+.five-day-forecast-list .mat-expansion-panel-header-title,
+.five-day-forecast-list .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.five-day-forecast-list .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+mat-form-field {
+  margin-right: 12px;
+}
