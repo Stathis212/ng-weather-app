@@ -1,0 +1,7 @@
+<pre *ngIf="error">
+  {{error | json}}
+</pre>
+<div *ngIf="!error">
+  Nothing to see here. Move along.
+</div>
+<a mat-fab color="primary" routerLink="/" class="back-to-home-btn"><mat-icon>home</mat-icon></a>

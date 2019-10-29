@@ -21,8 +21,8 @@ export class CityWeatherService {
     );
   }
 
-  public getFiveDayForecast(cityName: string, queryParams: Array<QueryParam>): Observable<ForecastModel> {
-    return this.httpService.fetch(this.fiveDayWeather + `?q=${cityName}`, queryParams).pipe(
+  public getFiveDayForecast(cityName: string): Observable<ForecastModel> {
+    return this.httpService.fetch(this.fiveDayWeather + `?q=${cityName}`).pipe(
       map(response => (response as ForecastModel))
     );
   }

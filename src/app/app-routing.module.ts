@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ErrorComponent } from '@components/error/error.component';
 
 const routes: Routes = [
   {
@@ -9,15 +10,22 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    // canLoad: [AuthenticationGuard],
     runGuardsAndResolvers: 'always',
     loadChildren: './components/home/home.module#HomeModule'
   },
   {
     path: 'city',
-    // canLoad: [AuthenticationGuard],
-    // runGuardsAndResolvers: 'always',
+    runGuardsAndResolvers: 'always',
     loadChildren: './components/city/city.module#CityModule'
+  },
+  {
+    path: 'error',
+    component: ErrorComponent
+  },
+  {
+    path: '**',
+    redirectTo: 'home',
+    pathMatch: 'full'
   },
 ];
 

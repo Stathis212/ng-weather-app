@@ -18,7 +18,6 @@ export class CityEffects {
     switchMap((cityName: string) => {
       const queryParams: QueryParam[] = [];
       queryParams.push(new QueryParam('units', 'metric'));
-      queryParams.push(new QueryParam('appid', 'e9fc171ebf8d729025d63a594c267f92'));
       return this.cityWeatherService.getCurrentWeather(cityName, queryParams).pipe(
         map(currentWeather => new fromCity.LoadCityCurrentWeatherSuccess(currentWeather)),
         catchError(error => {
@@ -33,9 +32,7 @@ export class CityEffects {
     ofType(fromCity.LOAD_CITY_FIVE_DAY_FORECAST),
     map((action: any) => action.payload),
     switchMap((cityName: string) => {
-      const queryParams: QueryParam[] = [];
-      queryParams.push(new QueryParam('appid', 'e9fc171ebf8d729025d63a594c267f92'));
-      return this.cityWeatherService.getFiveDayForecast(cityName, queryParams).pipe(
+      return this.cityWeatherService.getFiveDayForecast(cityName).pipe(
         map(forecast => new fromCity.LoadCityFiveDayForecastSuccess(forecast)),
         catchError(error => {
           return of(new fromCity.LoadCityFiveDayForecastFailure());
